@@ -1,0 +1,15 @@
+[package]
+name = "token-launchpad"
+version = "0.1.0"
+description = "A lightweight Solana program built with Anchor for launching custom SPL tokens with a built-in protocol fee."
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+anchor-lang = "0.30.1"
+anchor-spl = "0.30.1"
+solana-program = "2.1.4"
+spl-token = "5.1"
+spl-token-2022 = "2.1"

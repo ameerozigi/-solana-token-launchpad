@@ -1,0 +1,8 @@
+[workspace]
+members = ["programs/token-launchpad"]
+resolver = "2"
+
+[registry]
+url = "https://github.com/anchor-lang/anchor-registry.git"
+
+[features]
